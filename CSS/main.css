@@ -289,11 +289,17 @@ nav .container .links {
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+}
+nav .container .links i {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 30px;
+  display: none;
+}
+@media (max-width: 767px) {
   nav .container .links i {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 30px;
+    display: block;
   }
 }
 nav .container .links li a {
